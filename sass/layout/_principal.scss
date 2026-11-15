@@ -1,0 +1,74 @@
+
+  .galeria{
+    background-color: $cor_secundaria;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: $cor_terciaria;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .button {
+    border-radius: 5px;
+    color: $cor_terciaria;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button5 {
+    background-color: $cor_secundaria;
+    color: $cor_terciaria;
+    border: 2px solid $cor_secundaria;
+  }
+  
+  .button5:hover {
+    background-color: $cor_terciaria;
+    color: $cor_secundaria;
+  }
+  
+  img{
+    border-radius: 5px;
+  }
+  
+  
+  

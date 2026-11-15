@@ -1,0 +1,25 @@
+
+header {
+  padding: 20px 0px 20px 20px;
+  -webkit-transition: padding-left 1s, background-color 1s;
+  transition: padding-left 1s, background-color 1s;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+          background-color: $cor_header;
+}
+
+header:hover {
+  padding-left: 300px;
+}
+
+#border_header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#titulo{
+  margin-left: 60px;
+  color: $cor_terciaria;
+}
+
+

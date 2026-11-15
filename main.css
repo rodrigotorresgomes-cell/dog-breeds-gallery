@@ -1,0 +1,146 @@
+body {
+  margin: 10px;
+  background-color: rgba(255, 246, 227, 0.789);
+}
+
+html {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 1198px) {
+  div.texto_main {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1510px) {
+  div.texto_main {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  div.texto_main {
+    font-size: 20px;
+  }
+}
+
+header {
+  padding: 20px 0px 20px 20px;
+  -webkit-transition: padding-left 1s, background-color 1s;
+  transition: padding-left 1s, background-color 1s;
+  -webkit-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  background-color: #558237;
+}
+
+header:hover {
+  padding-left: 300px;
+}
+
+#border_header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#titulo {
+  margin-left: 60px;
+  color: white;
+}
+
+.galeria {
+  background-color: #212529;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.button {
+  border-radius: 5px;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: #555555;
+  color: white;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+img {
+  border-radius: 5px;
+}
+
+nav a {
+  padding: 5px;
+  margin: 5px;
+}
+
+#border_footer {
+  margin-top: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#logo_footer {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  background-color: #558237;
+}
+/*# sourceMappingURL=main.css.map */
